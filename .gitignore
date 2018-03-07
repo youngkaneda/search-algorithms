@@ -1,5 +1,6 @@
 # Compiled class file
 *.class
+*-search/target
 
 # Log file
 *.log

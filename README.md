@@ -1,6 +1,5 @@
 # Java implementations for Search Algorithms :coffee:  
 
----
 ## Linear Search :heavy_check_mark:
 *( Can be used for unsorted arrays )*
 

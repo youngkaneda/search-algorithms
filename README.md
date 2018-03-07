@@ -10,7 +10,7 @@ Given an array arr[] of n elements, write a function to search a given element x
 2. if x matches with the element, so return the index;
 3. if doesn't matches return -1;
 
-*Image example will be added later*
+![Alt Text](https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif)
 
 ## Binary Search :construction:
 ## Jump Search :construction:

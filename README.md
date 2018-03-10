@@ -41,6 +41,7 @@ The basic idea is to check fewer elements of an array ``arr[]`` by jumping ahead
 The best fixed value is caulculated by the square root of the lenght of array that will be used.
  
 **Time complexity = O(√n)**
+
 **The time complexity of the auxiliar search changes accordingly with the search used.**
 
 **Steps :** *(the value of ``j`` is updated in every iterarion by ``j+= sqrt(arr.size)``)*
@@ -59,6 +60,7 @@ The best fixed value is caulculated by the square root of the lenght of array th
 Interpolation search may go to different locations according the value of key being searched. For example if the value of key is closer to the last element, interpolation search is likely to start search toward the end side. It works like an search in a phone book, when you look at the person number in the phone book, starting by the letters closer to the name of the person searched. 
 
 **Time complexity = O (log log n)) if elements are uniformly distributed**
+
 **In worst case it can take upto O(n)**
 
 To find the position to be searched, it uses following formula:

@@ -12,7 +12,7 @@ package exponential.search;
 public class Search {
 
     public static void main(String[] args) {
-        int x = args[0];
+        int x = Integer.parseInt(args[0]);
         int[] array = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
         //
         int position = doSearch(x, array);

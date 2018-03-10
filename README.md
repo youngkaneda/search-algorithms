@@ -32,7 +32,7 @@ Binary search is a array search algorithm that follows the paradigm of division 
 3. Else If ``x`` is greater than the mid element, then ``x`` can only search in right half after the mid element. So, go to right half;
 4. Else (``x`` is smaller), go to the left half.
 
-*(image example will be later added)*
+*(image example will be added later)*
 
 ## Jump Search :heavy_check_mark:
 *( Is used for sorted arrays )*
@@ -52,7 +52,7 @@ The best fixed value is caulculated by the square root of the lenght of array th
 4. Else, so update the value of ``j`` and go to step 2.
 5. If the value of ``j`` becomes greater than ``arr.size`` so return -1.
 
-*(image example will be later added)*
+*(image example will be added later)*
 
 ## Interpolation Search :heavy_check_mark:
 *( Is used for sorted arrays )*
@@ -80,7 +80,7 @@ hi    ==> Ending index in arr[]
 3. If ``x`` is less than ``arr[pos]``, calculate the probe position of the left sub-array, taking ``hi = pos - 1``. Otherwise calculate the same in the right sub-array, taking ``lo = pos + 1``.
 4. Repeat until a match is found or the sub-array reduces to zero, and then return -1.
 
-*(image example will be later added)*
+*(image example will be added later)*
 
 ## Exponential Search :construction:
 ## Sublist Search :construction:

@@ -93,7 +93,7 @@ Exponential search allows for searching through a sorted, unbounded array for a 
 
 **Steps :** *(Given an index ``j`` that grows up with the formula ``j*=2``)*
 
-1. If ``arr[j] == x``, if it's true, then return ``j``.
+1. If ``arr[j] == x`` then return ``j``.
 2. Else if ``arr[j] > x``, do a binary search in the following range ``j/2, j``.
 3. Else, then update ``j`` and go to step 1. 
 4. If ``j>array.lenght`` and ``x`` isn't founded, then return -1;

@@ -29,7 +29,7 @@ Binary search is a array search algorithm that follows the paradigm of division 
     
 1. Compare ``x`` with the middle element;
 2. If ``x`` matches with middle element, return the mid index;
-3. Else If ``x`` is greater than the mid element, then ``x`` can only search in right half after the mid element. So, go to right half;
+3. Else If ``x`` is greater than the mid element, then ``x`` can only search in right half after the mid element. So, go to the right half;
 4. Else (``x`` is smaller), go to the left half.
 
 *(image example will be added later)*
@@ -57,7 +57,7 @@ The best fixed value is caulculated by the square root of the lenght of array th
 ## Interpolation Search :heavy_check_mark:
 *( It is used for sorted arrays )*
 
-Interpolation search may go to different locations according the value of key being searched. For example if the value of key is closer to the last element, interpolation search is likely to start search toward the end side. It works like an search in a phone book, when you look at the person number in the phone book, starting by the letters closer to the name of the person searched. 
+Interpolation search can go to different locations according the value of key being searched. For example if the value of key is closer to the last element, interpolation search is likely to start search toward the end side. It works like a search in a phone book, when you look at the person number in the phone book, starting by the letters closer to the name of the person searched. 
 
 **Time complexity = O (log log n)) if elements are uniformly distributed**
 
@@ -83,6 +83,5 @@ hi    ==> Ending index in arr[]
 *(image example will be added later)*
 
 ## Exponential Search :construction:
-## Sublist Search :construction:
 ## Fibonacci Search :construction:
 

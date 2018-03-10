@@ -11,5 +11,6 @@
     <module>interpolation-search</module>
     <module>binary-search</module>
     <module>jump-search</module>
+    <module>exponential-search</module>
   </modules>
 </project>

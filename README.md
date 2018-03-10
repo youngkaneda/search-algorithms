@@ -12,9 +12,9 @@ It sequentially checks each element of the array for the target value until a ma
 
 **Steps :**
 
-1. start from the index 0 of an array and one by one, compare ``x`` with each element of the array;
-2. if ``x`` matches with the element, so return the index;
-3. if doesn't matches and the array has reached the limit, then return -1;
+1. start from the index 0 of an array and one by one, compare ``x`` with each element of the array.
+2. if ``x`` matches with the element, so return the index.
+3. if doesn't matches and the array has reached the limit, then return -1.
 
 ![Alt Text](https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif)
 
@@ -27,9 +27,9 @@ Binary search is a array search algorithm that follows the paradigm of division 
 
 **Steps :**
     
-1. Compare ``x`` with the middle element;
-2. If ``x`` matches with middle element, return the mid index;
-3. Else If ``x`` is greater than the mid element, then ``x`` can only search in right half after the mid element. So, go to the right half;
+1. Compare ``x`` with the middle element.
+2. If ``x`` matches with middle element, return the mid index.
+3. Else If ``x`` is greater than the mid element, then ``x`` can only search in right half after the mid element. So, go to the right half.
 4. Else (``x`` is smaller), go to the left half.
 
 *(image example will be added later)*
@@ -44,13 +44,13 @@ The best fixed value is caulculated by the square root of the lenght of array th
 
 **The time complexity of the auxiliar search changes accordingly with the search used.**
 
-**Steps :** *(the value of ``j`` is updated in every iterarion by ``j+= sqrt(arr.size)``)*
+**Steps :** *(the value of ``j`` is updated in every iterarion by ``j+= sqrt(arr.lenght)``)*
 
-1. Jump from index 0 to index ``j``;
-2. If ``arr[j]`` is equals to ``x``, then return ``j``;
-3. Else If ``arr[j]`` is greater than ``x``, so jump back in array with the previous value of ``j`` and do a linear search, or a binary search, to find the position of ``x`` and then return it;
+1. Jump from index 0 to index ``j``.
+2. If ``arr[j]`` is equals to ``x``, then return ``j``.
+3. Else If ``arr[j]`` is greater than ``x``, so jump back in array with the previous value of ``j`` and do a linear search, or a binary search, to find the position of ``x`` and then return it.
 4. Else, so update the value of ``j`` and go to step 2.
-5. If the value of ``j`` becomes greater than ``arr.size`` so return -1.
+5. If the value of ``j`` becomes greater than ``arr.lenght`` so return -1.
 
 *(image example will be added later)*
 
@@ -82,6 +82,23 @@ hi    ==> Ending index in arr[]
 
 *(image example will be added later)*
 
-## Exponential Search :construction:
+## Exponential Search :heavy_check_mark:
+*( It is used for sorted arrays )*
+
+Exponential search allows for searching through a sorted, unbounded array for a specified value ``x``. The algorithm consists of two stages. The first stage determines a range in which ``x`` would reside if it were in the array. In the second stage, a binary search is performed on this range.
+
+**Time complexity = O(√n)**
+
+**The time complexity of the auxiliar binary search is O(Log n).**
+
+**Steps :** *(Given an index ``j`` that grows up with the formula ``j*=2``)*
+
+1. If ``arr[j] == x``, if it's true, then return ``j``.
+2. Else if ``arr[j] > x``, do a binary search in the following range ``j/2, j``.
+3. Else, then update ``j`` and go to step 1. 
+4. If ``j>array.lenght`` and ``x`` isn't founded, then return -1;
+
+*(image example will be added later)*
+
 ## Fibonacci Search :construction:
 

@@ -19,7 +19,7 @@ It sequentially checks each element of the array for the target value until a ma
 ![Alt Text](https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif)
 
 ## Binary Search :heavy_check_mark:
-*( Is used for sorted arrays )*
+*( It is used for sorted arrays )*
 
 Binary search is a array search algorithm that follows the paradigm of division and conquest. It performs successive divisions of the search space by comparing the searched element ``x`` with the element in the middle of the array.
 
@@ -35,7 +35,7 @@ Binary search is a array search algorithm that follows the paradigm of division 
 *(image example will be added later)*
 
 ## Jump Search :heavy_check_mark:
-*( Is used for sorted arrays )*
+*( It is used for sorted arrays )*
 
 The basic idea is to check fewer elements of an array ``arr[]`` by jumping ahead by fixed steps, a value ``j``, in place of searching all elements, and when ``arr[j]`` is greater then ``x``, jump back once and make a linear, or whatever search you want, to find the position of ``x``. 
 The best fixed value is caulculated by the square root of the lenght of array that will be used.
@@ -55,7 +55,7 @@ The best fixed value is caulculated by the square root of the lenght of array th
 *(image example will be added later)*
 
 ## Interpolation Search :heavy_check_mark:
-*( Is used for sorted arrays )*
+*( It is used for sorted arrays )*
 
 Interpolation search may go to different locations according the value of key being searched. For example if the value of key is closer to the last element, interpolation search is likely to start search toward the end side. It works like an search in a phone book, when you look at the person number in the phone book, starting by the letters closer to the name of the person searched. 
 

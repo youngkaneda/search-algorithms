@@ -99,6 +99,3 @@ Exponential search allows for searching through a sorted, unbounded array for a 
 4. If ``j>array.lenght`` and ``x`` isn't founded, then return -1;
 
 *(image example will be added later)*
-
-## Fibonacci Search :construction:
-
